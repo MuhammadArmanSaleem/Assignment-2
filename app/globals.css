@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.banner{
+    height:550px;
+    background-color: gray;
+}
+.nav{
+    padding-top:70px;
+    padding-left:100px;
+}
+.nav a{
+   padding: 10px;
+   font-weight:500;
+   color: white;
+}
+.nav a:hover{
+   color:burlywood;
+}
+
+.search{
+    padding: 10px 20px;
+    background-color:white;
+    color:gray;
+    border-radius:200px;
+    width:35%;
+    height:50px;
+    margin-left:100px;
+}
+.srch-container{
+   padding-top: 20px;
+}
+
+.srch-btn{
+    border-radius: 20px;
+    background-color:darkgoldenrod;
+    
+}
+.char-img{
+    float: inline-end;
+    padding-right:9%;
+    height: 550px;
+    padding-top: 50px;
+}
+.logo-img{
+    height:80px;
+   margin-top:95px;
+   padding-left:100px;
+}
+.banner-content{
+    width:600px;
+    padding-left:100px;
+    padding-top: 20px;
+}
+.site-btn {
+    border: none;
+    background: #ccc;
+    border-radius: 40px;
+    font-size: 25px;
+    padding: 30px 20px;
+    width: 1300px; 
+    margin: 0 auto;
+    text-align: center;
+}
+.about-site{
+    margin-left:100px;
+    margin-top:50px;
+    width:800px;
+   
+}
+.heading{
+    font-size:xx-large;
+    font-weight:500;
+    display: block;
+    padding-top:20px;
+}
+.para {
+    padding-top:20px;
+    display: block;
+}
+
+.footer{
+    height: 200px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top:50px;
+}
